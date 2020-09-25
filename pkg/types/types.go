@@ -27,3 +27,6 @@ type Payment struct {
 	ID     int
 	Amount Money
 }
+
+//Category for example(car, purchases)
+type Category string
