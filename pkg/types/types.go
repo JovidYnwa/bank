@@ -23,10 +23,12 @@ type Card struct {
 	Active     bool
 }
 
-type Payment struct {
-	ID     int
-	Amount Money
-}
-
 //Category for example(car, purchases)
 type Category string
+
+//Payment представляет информацию о платеже
+type Payment struct {
+	ID       int
+	Amount   Money
+	Category Category
+}
