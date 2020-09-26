@@ -1,3 +1,3 @@
-module github.com/JovidYnwan/bank/v2
+module github.com/JovidYnwa/bank/v2
 
 go 1.15
