@@ -29,6 +29,13 @@ type Category string
 //Status defines the status of payment
 type Status string
 
+//The staus of paymets can be
+const (
+	StatusOk         Status = "OK"
+	StatusFail       Status = "FAIL"
+	StatusInProgress Status = "INPROGRESS"
+)
+
 //Payment представляет информацию о платеже
 type Payment struct {
 	ID       int
